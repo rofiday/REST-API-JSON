@@ -4,9 +4,8 @@ module.exports = {
   middlewareGetAllData: (req, res, next) => {
     try {
       if (!products) {
-        res.status(404).send("Data Not Found");
+        return res.status(404).send("Data Not Found");
       }
-      res.status(200).send(products);
       next();
     } catch (error) {
       console.error(error.message);

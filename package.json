@@ -1,0 +1,21 @@
+{
+  "name": "assignment2-muhammad-rofi-dailamy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "restapi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rofiday/REST-API-JSON.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rofiday/REST-API-JSON/issues"
+  },
+  "homepage": "https://github.com/rofiday/REST-API-JSON#readme"
+}

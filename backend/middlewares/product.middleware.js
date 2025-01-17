@@ -19,7 +19,6 @@ module.exports = {
       if (!product) {
         res.status(404).send("Product Not Found");
       }
-      res.status(200).send(product);
       next();
     } catch (error) {
       console.error(error.message);

@@ -28,7 +28,6 @@ module.exports = {
         fs.readFileSync("assets/jsons/product.json")
       );
       res.status(200).send(allProduct);
-      console.log(allProduct);
     } catch (error) {
       console.error(error.message);
       res.status(500).send(error.message);
